@@ -1,0 +1,24 @@
+# - ChunkBlocks Official Configuration File -
+# Developed by bluecreeper111
+# Please consider donating!: https://www.patreon.com/user?u=18252829
+# Check out my other work!: https://www.spigotmc.org/resources/authors/bluecreeper111.451947/
+
+# The ChunkBlock item specifications can be changed below:
+# Uses Bukkit Item IDS: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+material: ENDER_PORTAL_FRAME
+# Item name
+displayname: '&a&lChunkBlock'
+# Item lore
+lore: '&7Loads chunks while your away!'
+
+# The following is the message a player is sent when they place a ChunkBlock:
+# The %time% variable will be replaced with the time on the ChunkBlock (In Minutes)
+placeMessage: '&aYou have placed a chunkloader with &2%time% &aminutes left on it!'
+
+# Put either true or false, true if the player needs a permission to break the block
+# If true, the permission is "chunkblocks.break"
+permission-to-break: false
+
+# Whether or not ChunkBlocks should be dropped on T.N.T explosions
+drop-on-tnt-blast: true
+

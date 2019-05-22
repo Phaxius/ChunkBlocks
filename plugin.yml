@@ -1,0 +1,9 @@
+main: com.bluecreeper111.chunkblocks.Main
+name: ChunkBlocks
+description: Add dynamic Chunkloaders into the game
+author: bluecreeper111
+version: 1.0
+commands:
+  chunkblocks:
+    description: Reload configuration, or give player a ChunkBlock.
+    usage: /<command>
